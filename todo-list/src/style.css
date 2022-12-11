@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* login page  */
+
+.log-in{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 229, 232);
+
+}
+
+.log-in-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25em;
+    height: 25em;
+    box-shadow: 1px 1px 9px rgb(85, 77, 77);
+
+}
+.log-in-item-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.log-in-item-input input{
+    margin: 6px 0;
+    width: 16em;
+    height: 2em;
+    text-align: center;
+}
+
+.log-in-item h1{
+    margin-bottom: 0.6em;
+    color: rgb(78, 99, 123);
+}
+
+.log-in-item button{
+    margin: 1em 0;
+    width: 8em;
+    height: 2em;
+}
+.log-in-item span{
+    cursor: pointer;
+
+}
+
+/* sign up page  */
+.sign-up{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 229, 232);
+}
+
+.sign-up-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25em;
+    height: 25em;
+    box-shadow: 1px 1px 9px rgb(85, 77, 77);
+
+}
+.sign-up-item-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-up-item-input input{
+    margin: 6px 0;
+    width: 16em;
+    height: 2em;
+    text-align: center;
+    
+}
+.sign-up-item h1{
+    margin-bottom: 0.6em;
+    color: rgb(78, 99, 123);
+}
+.sign-up-item button{
+    margin: 1em 0;
+    width: 8em;
+    height: 2em;
+}
+.sign-up-item span{
+    cursor: pointer;
+}
+/* App */
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: rgb(225, 229, 232);
+
+
+}
+.main{
+    margin: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    min-width: 50em;
+    height: 50em;
+}
+
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 0.7em;
+    width: 30em;
+    height: 1.7em;
+    align-items: center;
+    
+}
+.main-nav a{
+    text-decoration: none;
+    color: rgb(78, 99, 123);
+    box-shadow: 1px 1px 4px black;
+    width: 7em;
+    text-align: center;
+}
+
+.main-input{
+    width: 30em;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top:1.4em;
+
+}
+.main-input input{
+    width: 23em;
+    height: 1.7em;
+}
+.main-input button{
+    height: 1.7em;
+    padding: 1px;
+    color: rgb(78, 99, 123);
+    box-shadow: 1px 1px 4px black;
+}   
+
+.main-nav-list{
+   height: 40em;
+   width: 40em;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+/* task component  */
+
+.task-component{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.3em;
+    width: 38.4em;
+    min-height: 3em;
+    margin: 1em 0.1em;
+    box-shadow: 1px 1px 5px black;
+}
+.task-component button{
+    width: 5em;
+    height: 2em;
+    box-shadow: 1px 1px 4px black;
+}
+
+
+.activeComp{
+    background-color: red;
+}
+
+.innactiveComp{
+    background-color: green;
+
+}
+
+.activeButton{
+    background-color: aquamarine;
+}
